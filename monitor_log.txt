@@ -1,0 +1,11 @@
+=== FIFO Write Phase ===
+@ 10ns: Write din = 0xAA
+@ 20ns: Write din = 0x55
+@ 30ns: Write din = 0x3C
+
+=== FIFO Read Phase ===
+@ 50ns: Read dout = 0xAA
+@ 60ns: Read dout = 0x55
+@ 70ns: Read dout = 0x3C
+
+Simulation finished successfully!
